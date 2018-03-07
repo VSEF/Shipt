@@ -1,0 +1,64 @@
+Test cases for Sign Up feature
+(www.shipt.com)
+
+These test cases based on my assumptions (no access to the software requirements).
+
+There are 3 possible ways to be registered from home page:
+1st - by clicking on the Sign Up button on the top of the home page,
+2nd - by clicking on the Log In button on the top of the home page and on the Sign Up link (under Log In button),
+3rd - by clicking on the Log In link on the bottom of the home page (under the Nice Links) and on the Sign Up link (under Log In button).
+
+Test approach: to check all possible conditions and combinations with register form.
+
+Examples for 1st.
+		
+	 1. The registration functionality is available
+	1.1. Navigate to the "www.shipt.com".
+	1.2. Click on the "Sign Up" button on the top right of the page.
+	1.3. User should be on the registration page.	
+	
+	 2. User can be registered by entering valid credentials (valid email and zip code where service is provided).
+	2.1. Navigate to the "www.shipt.com".
+	2.2. Click on the "Sign Up" button on the top right of the page.
+	2.3. On the opened page "Let's get started in your membership!" enter valid email and zip code (where service is provided) and click on "Go" button.
+	2.4. User should be registered.
+
+	 3. User can be registered by providing mambership code.
+	3.1. Navigate to the "www.shipt.com".
+	3.2. Click on the "Sign Up" button on the top right of the page.
+	3.3. On the opened page "Let's get started in your membership!" click on the "Click here" link (for Have a membership code), enter valid email and zip code (where service is provided) and valid Gift code and click on "Go" button.
+	3.4. User should be registered.	 	
+
+	 4. User can't be registered by entering valid email and invalid zip code. 
+	4.1. Navigate to the "www.shipt.com".
+	4.2. Click on the "Sign Up" button on the top right of the page.
+	4.3. On the opened page "Let's get started in your membership!" enter valid email and invalid zip code (where service is provided) and click on "Go" button.
+	4.4. User should not be registered (error message).
+	
+	 5. User can't be registered by entering invalid email and valid zip code. 
+	5.1. Navigate to the "www.shipt.com".
+	5.2. Click on the "Sign Up" button on the top right of the page.
+	5.3. On the opened page "Let's get started in your membership!" enter invalid email and valid zip code (where service is provided) and click on "Go" button.
+	5.4. User should not be registered (error message).
+
+	 6. User can't be registered by entering invalid email and invalid zip code. 
+	6.1. Navigate to the "www.shipt.com".
+	6.2. Click on the "Sign Up" button on the top right of the page.
+	6.3. On the opened page "Let's get started in your membership!" enter invalid email and invalid zip code (where service is provided) and click on "Go" button.
+	6.4. User should not be registered (error message).
+
+	 7. Email and zip code fields are required.
+	7.1. Navigate to the "www.shipt.com".
+	7.2. Click on the "Sign Up" button on the top right of the page.
+	7.3. On the opened page "Let's get started in your membership!" don't enter email and zip code and click on "Go" button.
+	7.4. Error message("Please fill ouy this field") for each of the filelds (email and zip code). 	
+	
+	 8. The registered user can't be registered again with the same email.
+	8.1. Navigate to the "www.shipt.com".
+	8.2. Click on the "Sign Up" button on the top right of the page.
+	8.3. On the opened page "Let's get started in your membership!" enter email already registered user and zip code (where service is provided) and click on "Go" button.
+	8.4. User should not be registered (error message).
+ 	 
+	.
+	.
+	.

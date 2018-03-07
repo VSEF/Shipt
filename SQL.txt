@@ -1,0 +1,13 @@
+SQL 
+
+a) The relationships between tables:
+
+Customers.Id=Orders.customer_id
+
+Orders.Shopper_id=Shoppers.Id
+
+b) 
+select Orders.Id, Orders.Store,Customers.Last_name, Shoppers.Last_name
+from Orders,Customers,Shoppers
+where Orders.Customer_id=Customers.Id and Orders.Shopper_Id=Shoppers.Id
+and Orders.Id >10 and Orders.Store like 'A%'

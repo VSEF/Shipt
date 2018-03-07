@@ -1,0 +1,9 @@
+Automation
+
+1.I used Selenium + Java because I have access to the IDEA on this language.
+2.In my script I found element by className and validated new page by Title. 
+3. It can be issues with element locators, browsers.
+4.1. Realize Page object model (store features,steps,element locators for each page separately).
+4.2. Separate data from the steps (data driven) by creating resource directory and storing configurable data (browser, url, login, password),
+storing element locators for each page. You can store data also and in excel files.
+

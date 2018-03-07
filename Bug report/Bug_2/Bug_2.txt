@@ -1,0 +1,25 @@
+Bug report
+
+# 2
+Summary:
+An register user gets an error after entering address into "Stores near Your Address" field.
+
+Steps to reproduce:
+
+Precondition: user should be registered.
+
+1. Navigate to the www.shipt.com and log in.
+2. Into opened window ("Stores Near Your Address") enter address (Del Medio Avenue), select suggested whole address (for Mountain View) and click on it.
+
+
+Expected result: User can't select address where service doesn't provided or can select address without service with recieving appropriate message.
+Actual result: Error message ("Unable to save address").
+
+
+It is starting point of using app...  
+User can't understand what was wrong... 
+Client can leave this service ...
+ 
+Priority # 1
+Solution - 1) User can't select address where service doesn't provided (the best solution on my opinion).
+	   2) User can select address without providing service with recieving appropriate message.		 

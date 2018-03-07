@@ -1,0 +1,22 @@
+Bug report
+
+# 1
+Summary:
+Different form for registering users.
+
+Steps to reproduce:
+1. Navigate to the www.shipt.com.
+2. Click on the "Sign Up" button (top right).
+3. Look at the registration form (F1 screenshot).
+4. Navigate to the www.shipt.com.
+5. Click on the "Log In" button (top right).
+6. In the opened window navigate to the "Sign up" link and click on it.
+7. Compare the forms.
+
+Expected result: the forms should be the same.
+Actual result: the forms are different.
+
+
+By useng these diggerent form for a registering users information can be stored incorrectly.
+Priority # 1
+Solution - to use only one form for a registering all users. 
